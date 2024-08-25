@@ -62,6 +62,12 @@ button {
   transition: all 0.3s ease;
 }
 
+.btn1 {
+  align-content: center;
+  width: 50%;
+  margin-left: 110px;
+}
+
 button:hover {
   background: #f260ff;
 }
