@@ -20,7 +20,9 @@ const Quiz = () => {
     return (
       <div className="container">
         <h1>Welcome to the Quiz!</h1>
-        <button onClick={handleStartQuiz}>Start Quiz</button>
+        <button className="btn1" onClick={handleStartQuiz}>
+          Start Quiz
+        </button>
       </div>
     );
   }
